@@ -1,6 +1,7 @@
 # PostCSS
 
 * [browserslist](http://browserl.ist/)
+* [Smarter CSS builds with Webpack](https://www.bensmithett.com/smarter-css-builds-with-webpack/)
 
 SASS in 2006, followed by Less in 2009. Provides variables, mixins, functions, and more.
 
@@ -8,6 +9,8 @@ Essential plugins:
 
 * **postcss-cssnext** - will include postcss-apply, postcss-nesting, postcss-media-minmax, etc.
 * **postcss-nested** - may be worth to use since postcss-nesting will add empty rule for now.
+* [Rucksack](https://simplaio.github.io/rucksack/)
+* [postcss-opacity](https://github.com/iamvdo/postcss-opacity)
 
 ## Against
 
