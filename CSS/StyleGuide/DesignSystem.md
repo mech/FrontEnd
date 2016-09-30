@@ -1,7 +1,7 @@
 # Design System
 
-* Design System - The whole design language of the system. Tones, Typography, Copy Writing, Color Palettes, Icons, Grid System, etc. 
-* Style Guides - Guidelines to styles.
+* Design System - The whole design language of the system. Voice and Tones, Typography, Brand Identity, Copy Writing, Color Palettes, Icons, Grid System, Code, UI Patterns, etc. 
+* [Style Guides](http://bradfrost.com/blog/post/style-guides/) - Guidelines to styles. Cornerstones of a good design system.
 * Pattern Library - Documented UI library with code examples.
 
 > Get control over your design with a system
@@ -10,6 +10,8 @@ Maintain a visual language, UI elements, components and page types to realize su
 
 Living documentation based on executable examples.
 
+* [Atomic Design](http://atomicdesign.bradfrost.com/chapter-1/)
+* [Responsive deliverables - Dave Rupert](http://daverupert.com/2013/04/responsive-deliverables/)
 * [Why and How to Test your Pattern Library](http://tinnedfruit.com/2016/09/12/why-and-how-to-test-your-pattern-library.html)
 * [Test your Design System, not your website](http://tinnedfruit.com/2015/08/01/test-your-design-system-not-your-website.html)
 * [31 Ways to Spend Less Time on Manual Cross-Browser Testing](http://tinnedfruit.com/2016/08/15/31-ways-to-spend-less-time-on-manual-cross-browser-testing.html)
@@ -30,6 +32,7 @@ Living documentation based on executable examples.
 
 ## Company Design Language
 
+* [Yelp](https://www.yelp.com/styleguide)
 * [Apple Develop](https://developer.apple.com/develop/)
 * [Android Develop and Design](https://developer.android.com/design)
 * [IBM Design Language](http://www.ibm.com/design/language/)
