@@ -17,9 +17,15 @@ body {
 }
 ```
 
+## Rhythm
+
+* [Vertical and horizontal rhythm](http://us5.campaign-archive2.com/?u=7e093c5cf4&id=564702bd96)
+* [Compose to a Vertical Rhythm](https://24ways.org/2006/compose-to-a-vertical-rhythm/)
+
 ## Typography Scale
 
 * [Type Scale](http://type-scale.com/)
+* [Grid Lover](http://www.gridlover.net/try)
 
 Smaller screen often need smaller font-size, like iPhone display or the small MacBook display. Larger 27" display naturally need bigger font-size. In order for your font to be responsive, you need a system of typography scale.
 

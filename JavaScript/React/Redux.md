@@ -3,6 +3,7 @@
 * [React/Redux Links](https://github.com/markerikson/react-redux-links)
 * [Normalizing State Shape](https://github.com/markerikson/redux/blob/structuring-reducers-page/docs/recipes/reducers/06-NormalizingStateShape.md)
 * [Structuring Reducers Recipe](https://github.com/reactjs/redux/issues/1784)
+* [10 Tips for Better Redux Architecture](https://medium.com/javascript-scene/10-tips-for-better-redux-architecture-69250425af44#.uawb0d7ag)
 
 ## Against
 

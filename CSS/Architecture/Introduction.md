@@ -1,5 +1,6 @@
 # CSS Architecture
 
+* [Scalable CSS Reading List](https://github.com/davidtheclark/scalable-css-reading-list)
 * [CSS Guidelines by Harry Roberts - A high-level advice and guidelines for writing sane, manageable, scalable CSS](http://cssguidelin.es/)
 * [Probably too extreme approach to styling?](https://medium.com/maintainable-react-apps/journey-to-enjoyable-maintainable-styling-with-react-itcss-and-css-in-js-632cfa9c70d6#.fvzqui8rt)
 * [CSS at BBC Sport - Using BEM, OOCSS and ITCSS](https://medium.com/@shaunbent/css-at-bbc-sport-part-1-bab546184e66#.5x90b9sh8)
@@ -18,6 +19,14 @@ background: linear-gradient(90deg, yellow, red);
 
 /* Elements inherit styles from their parent container */
 ```
+
+## HTML Semantics
+
+* [About HTML semantics and front-end architecture](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
+
+Tying your class name semantics tightly to the nature of the content has already reduced the ability of your architecture to scale or be easily put to use by other developers.
+
+Use content-independent class names. Contextless.
 
 ## Contextual Styling
 
@@ -164,6 +173,9 @@ Layout and position should be handled by either a separate layout class or a sep
 ### Immutability
 
 * [Immutable CSS](http://csswizardry.com/2015/03/immutable-css/)
+* [On Utility Classes](http://davidtheclark.com/on-utility-classes/)
+* [SUIT CSS Utilities](https://github.com/suitcss/utils)
+* [uikit](https://getuikit.com/docs/utility.html)
 
 Minimizing side effects. Provides confidence. Make things predictable.
 

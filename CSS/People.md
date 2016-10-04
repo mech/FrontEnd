@@ -4,3 +4,4 @@
 * [Philip Walton](https://philipwalton.com/)
 * [Simon + Samurai](http://simurai.com/)
 * [Tab Atkins](http://www.xanthir.com/)
+* [Jina Bolton]()

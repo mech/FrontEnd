@@ -24,6 +24,7 @@ Essential plugins:
 
 `postcss-custom-properties` can only be used in the `:root` selector, while `postcss-css-variables` can be anywhere.
 
+* [Tokens in Design Systems](https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421#.m9zvc5sj6)
 * [Why I am excited about native CSS variables](https://philipwalton.com/articles/why-im-excited-about-native-css-variables/)
 * [Let's talk about CSS Variables](http://www.xanthir.com/blog/b4KT0)
 * [Issue#99 - How postcss-css-variables is different from postcss-custom-properties](https://github.com/MoOx/postcss-cssnext/issues/99)
@@ -137,5 +138,9 @@ Never use a mixin if you're not passing an argument.
 @media (--foo) {
 }
 ```
+
+## Videos
+
+* [PostCSS Tutorials](https://www.youtube.com/watch?v=fMg5HlHmGLY&index=1&list=PLLnpHn493BHFvjZzyYrQP0RTsG-Al7j9m)
 
 Page 104
