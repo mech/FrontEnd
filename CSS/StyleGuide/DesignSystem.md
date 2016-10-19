@@ -1,5 +1,7 @@
 # Design System (Thinking)
 
+We are not designing static graphics. We are designing interactive systems. We are designing for intents and behaviours.
+
 * Design System - The whole design language of the system. Voice and Tones, Typography, Brand Identity, Copy Writing, Color Palettes, Icons, Grid System, Code, UI Patterns, etc. 
 * [Style Guides](http://bradfrost.com/blog/post/style-guides/) - Guidelines to styles. Cornerstones of a good design system.
 * Pattern Library - Documented UI library with code examples.
@@ -13,6 +15,7 @@ Maintain a visual language, UI elements, components and page types to realize su
 Living documentation based on executable examples.
 
 * [Atomic Design](http://atomicdesign.bradfrost.com/chapter-1/)
+* [Subform - Capturing Design Intent](https://medium.com/subform/disrupting-design-interns-comps-and-redlines-b2ecdc07604c#.ir5th17ia)
 * [Responsive deliverables - Dave Rupert](http://daverupert.com/2013/04/responsive-deliverables/)
 * [Why and How to Test your Pattern Library](http://tinnedfruit.com/2016/09/12/why-and-how-to-test-your-pattern-library.html)
 * [Test your Design System, not your website](http://tinnedfruit.com/2015/08/01/test-your-design-system-not-your-website.html)
@@ -23,6 +26,7 @@ Living documentation based on executable examples.
 * [Tokens in Design Systems](https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421#.m9zvc5sj6)
 * [The Salesforce Team Model for Scaling a Design System](https://medium.com/salesforce-ux/the-salesforce-team-model-for-scaling-a-design-system-d89c2a2d404b#.5uq1gbyrb)
 * [Content Display Patterns - Content patterns are different from Display patterns](http://danielmall.com/articles/content-display-patterns/)
+* [Design Systems and Postel's Law](http://markboulton.co.uk/journal/design-systems-and-postels-law)
 
 > Your design needs to adapt and change to fit the content on offer and the changing nature of the web. Whether it's a modified navigation bar to accommodate new sections, a new type of article page or a complete design refresh, the key to success is continuous improvement.
 
@@ -38,6 +42,38 @@ Living documentation based on executable examples.
 > 
 > No doubt organizing takes time, planning, and effort. It doesn’t come for free. The fact that this configuring isn’t visibly represented in the final product may tempt us to say it serves as a distraction to the real work that needs to be done. Why bother?
 
+---
+
+> Really, the true task of the digital designer is not drawing screens; it's specifying the individual components that make up the screens. - [Digital product design is not graphic design](https://www.subformapp.com/articles/digital-not-graphic/)
+
+---
+
+> Designing the components in isolation often feels like a surefire recipe for a design that is generic, flat or lacking in a strong point of view. A strong design is informed by a view of the big picture, an understanding of the context, and strong art direction — even at the cost of consistency or time. - [Taking pattern libraries to the next level](https://www.smashingmagazine.com/taking-pattern-libraries-next-level/)
+
+## Screens, Reusable Components, States and Data
+
+That's what our applications consist of.
+
+## Why We Need Design System?
+
+* [Airbnb - Building a Visual Language](http://airbnb.design/building-a-visual-language/)
+
+When you experience growth. When you have many more teams. When you have too few constraints.
+
+Working in software development and design, we are often required to ship one-off solutions. Sometimes we're working within time constraints and sometimes we just haven't yet agreed upon a path forward. These one-off solutions aren't inherently bad, but if they aren't built upon a solid foundation, we eventually find ourselves having to pay back accrued technical and design debts.
+
+Visual language is like any other language. Misunderstandings arise if the language is not shared and understood by everyone using it. As a product or team grows, the challenges within these modalities compound.
+
+Design has always been largely about systems, and how to create products in a scalable and repeatable way. From Pantone colors to Philips screws, these systems enable us to manage the chaos and create better products. Digital products are perhaps the most fertile ground for implementing these systems and yet it's not often considered a priority.
+
+A unified design system is essential to building better and faster; better because a cohesive experience is more easily understood by our users, and faster because it gives us a common language to work with.
+
+---
+
+Without a design system, you are rendered inflexible. You can't explore and experiment with different layouts. Your layout is somehow fixed, because the components or sub-components depend on the parent container.
+
+> This inflexibility limits exploration; propagating changes is too difficult, tempting us to just stick with the first design that comes to mind. - [Digital product design is not graphic design](https://www.subformapp.com/articles/digital-not-graphic/)
+
 ## Pattern Library
 
 * [FutureLearn](https://www.futurelearn.com/pattern-library)
@@ -46,6 +82,8 @@ Living documentation based on executable examples.
 ## Broader Strokes - Style Tiles, Element Collages
 
 To establish aesthetic direction, mood and atmosphere.
+
+In design, atmosphere comprises color, typography and texture, **separate from layout**. The layout can drastically change or move around depending on screen size, but the atmosphere (and feeling) remains. Layout is thus inconsequential when compared to the overall atmosphere.
 
 ## Company Design Language
 
@@ -59,11 +97,15 @@ http://styleguides.io/examples.html
 * [FT's Origami](http://origami.ft.com/)
 * [FT Next](https://github.com/Financial-Times/next)
 * [Buzz Feed](http://solid.buzzfeed.com/buttons.html)
-* [Airbnb - The way we build](http://airbnb.design/the-way-we-build/)
+* [Airbnb Design](http://airbnb.design/)
 * [Nordnet](https://www.nordnet.se/brand/ui/)
 * [Intuit](http://harmony.intuit.com/)
 * [USA Gov](https://standards.usa.gov)
 * [MailChimp](http://ux.mailchimp.com/patterns)
+* [Firebase](https://www.firebase.com/docs/styleguide.html)
+* [Walmart](http://walmartlabs.github.io/web-style-guide/)
+* [GitHub](http://primercss.io/)
+* [Atlassian](https://design.atlassian.com)
 
 ## Context-Agnostic and Structural Thinking
 

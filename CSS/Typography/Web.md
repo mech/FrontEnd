@@ -17,8 +17,14 @@ body {
 }
 ```
 
+## Web Fonts
+
+* [Web Font Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization)
+* [A Comprehensive Guide to Font Loading Strategies](https://www.zachleat.com/web/comprehensive-webfonts/)
+
 ## Rhythm
 
+* [Implementing baseline rhythm in CSS](https://pilot.co/blog/implementing-baseline-rhythm-in-css/)
 * [Vertical and horizontal rhythm](http://us5.campaign-archive2.com/?u=7e093c5cf4&id=564702bd96)
 * [Compose to a Vertical Rhythm](https://24ways.org/2006/compose-to-a-vertical-rhythm/)
 
@@ -26,6 +32,7 @@ body {
 
 * [Type Scale](http://type-scale.com/)
 * [Grid Lover](http://www.gridlover.net/try)
+* [Truly fluid typography with vh and vw units](https://www.smashingmagazine.com/2016/05/fluid-typography/)
 
 Smaller screen often need smaller font-size, like iPhone display or the small MacBook display. Larger 27" display naturally need bigger font-size. In order for your font to be responsive, you need a system of typography scale.
 

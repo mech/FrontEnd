@@ -66,6 +66,37 @@ Immutable.
 
 ## Nesting (Avoid if possible, only use it for grouping)
 
+Thou shalt not nest (unless thou art nesting media queries, overrides or thou really hast to).
+
+**Nesting increases specificity, plain and simple.** We have introduced additional specificity for our `.med-Video_Play` element when it is completely unneeded. **Overrides can be nested, but child elements are not.**
+
+```css
+.med-Video {
+  position: absolute;
+  background-color: $color-black;
+
+  .med-Video_Play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* Result in... */
+.med-Video {
+  position: absolute;
+  background-color: #000;
+}
+
+.med-Video .med-Video_Play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
 Nesting can reduce and DRY up code (as we don't write repeated references to the same selector), but too much of it is never a good thing. Don't nest all the stuffs, it will lead to trouble understanding. Matter of fact, try not to use nesting at first.
 
 You may want to consider only nesting pseudo-classes and pseudo-elements.

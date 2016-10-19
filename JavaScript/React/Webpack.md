@@ -5,6 +5,19 @@
 
 [webpack-stats-plugin](https://github.com/FormidableLabs/webpack-stats-plugin)
 
+## Webpack 2
+
+* [Webpack 2 new documentation site](https://webpack.js.org/concepts/)
+
+## Hot Reloading - HMR, HSR, RHL
+
+HMR is very delicate and hard to get right.
+
+HMR is from Webpack utilising WebSocket and JSONP. style-loader gives you the ability to hot reload CSS. react-hot-loader is another one.
+
+* [Hot State Reloading](https://medium.com/@tannerlinsley/introducing-hsr-the-hot-state-reloader-behind-jumpsuit-js-42498712ac90#.kn14mbsmc)
+* [Webpack & The Hot Module Replacement](https://medium.com/@rajaraodv/webpack-hot-module-replacement-hmr-e756a726a07#.igxh3h3e5)
+
 ## Plugins
 
 * DedupePlugin - Search for similar files and deduplicate them in the output.

@@ -5,6 +5,10 @@
 * [Probably too extreme approach to styling?](https://medium.com/maintainable-react-apps/journey-to-enjoyable-maintainable-styling-with-react-itcss-and-css-in-js-632cfa9c70d6#.fvzqui8rt)
 * [CSS at BBC Sport - Using BEM, OOCSS and ITCSS](https://medium.com/@shaunbent/css-at-bbc-sport-part-1-bab546184e66#.5x90b9sh8)
 * [CSS Architecture by Philip Walton](https://philipwalton.com/articles/css-architecture/)
+* [The ten commandments of sane style sheets](https://benfrain.com/the-ten-commandments-of-sane-style-sheets/)
+* [OOCSS/Atomic CSS are Responsive Web Design anti-patterns](https://benfrain.com/oocss-atomic-css-responsive-web-design-anti-pattern/)
+* [Reuse or not reuse](http://www.cssmojo.com/a-retort-to-reuse-on-maintainablecss/)
+* [MaintainableCSS](http://maintainablecss.com/)
 
 You need to know how [Specificity, Inheritance and Cascade](http://vanseodesign.com/css/css-specificity-inheritance-cascaade/) work in CSS.
 

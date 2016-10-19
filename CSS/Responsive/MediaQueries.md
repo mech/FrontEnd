@@ -7,6 +7,18 @@ Minimize media queries breakpoints. If you find yourself needing a boatload of m
 
 Don't let media queries method throws off your content hierarchy.
 
+```css
+.container {
+  width: 100%;
+  @media (min-width: $M) {
+    width: 50%;
+  }
+  @media (min-width: $L) {
+    width: 75%;
+  }
+}
+```
+
 ## REM and Media Queries
 
 * [REM unit is unless in Media Queries](http://fvsch.com/code/bugs/rem-mediaquery/)

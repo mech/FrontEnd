@@ -1,5 +1,9 @@
 # Pseudo Class
 
+```js
+document.querySelector('.box:nth-child(2)');
+```
+
 ## :not()
 
 * [MDN - :not()](https://developer.mozilla.org/en/docs/Web/CSS/:not)

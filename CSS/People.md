@@ -5,3 +5,5 @@
 * [Simon + Samurai](http://simurai.com/)
 * [Tab Atkins](http://www.xanthir.com/)
 * [Jina Bolton]()
+* [Ben Frain - ECSS](https://benfrain.com/)
+* [Thierry Koblentz - Atomic CSS](http://www.cssmojo.com/)
