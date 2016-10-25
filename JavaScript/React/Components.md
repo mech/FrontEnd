@@ -26,8 +26,9 @@ Keep your components small, like very small, small. If your `render()` has more 
 
 ## Iterating Lists
 
-* `sort()` - Make a copy before sorting as it will mutate the array
+* `sort()` - Make a copy before sorting as `sort()` mutate the original array
 * `filter()` - You need to save original copy so that you won't lose the data forever.
+* `concat()` - add a new item, return a new array
 
 ```js
 // Copy the data
@@ -35,4 +36,39 @@ var data = this.state.data.slice()
 
 // Or in ES6
 var data = Array.from(this.state.data)
+```
+
+Having a list naming convention like `TimerList`, `ProductList`, `XXXList` make it easier to know that component only renders a list of children and no more.
+
+```js
+// Object.assign is used to create new object instead of modifying existing ones.
+// Notice we map over and do a total replacement for the affected timer,
+// while leaving the others untouched.
+updateTimer(attrs) {
+  this.setState({
+    timers: this.state.timers.map((timer) => {
+      if (timer.id === attrs.id) {
+        return Object.assign({}, timer, {
+          title: attrs.title,
+          project: attrs.project
+        })
+      } else {
+        return timer
+      }
+    })
+  })
+}
+```
+
+## Deleting Lists
+
+There are many ways to delete an item from an array. You can use `filter()` or `splice()`.
+
+```js
+// filter() returns new array!
+deleteTimer(timerId) {
+  this.setState({
+    timers: this.state.timers.filter(t => t.id !== timerId)
+  })
+}
 ```

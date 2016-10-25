@@ -8,6 +8,10 @@
 ## Webpack 2
 
 * [Webpack 2 new documentation site](https://webpack.js.org/concepts/)
+* [Code split component](https://github.com/ctrlplusb/code-split-component)
+
+https://github.com/postcss/postcss-loader/issues/111
+https://github.com/webpack/webpack/issues/2557
 
 ## Hot Reloading - HMR, HSR, RHL
 

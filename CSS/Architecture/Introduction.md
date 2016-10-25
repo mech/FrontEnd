@@ -1,5 +1,6 @@
 # CSS Architecture
 
+* [CSS Reference](http://tympanus.net/codrops/css_reference/)
 * [Scalable CSS Reading List](https://github.com/davidtheclark/scalable-css-reading-list)
 * [CSS Guidelines by Harry Roberts - A high-level advice and guidelines for writing sane, manageable, scalable CSS](http://cssguidelin.es/)
 * [Probably too extreme approach to styling?](https://medium.com/maintainable-react-apps/journey-to-enjoyable-maintainable-styling-with-react-itcss-and-css-in-js-632cfa9c70d6#.fvzqui8rt)
@@ -9,6 +10,7 @@
 * [OOCSS/Atomic CSS are Responsive Web Design anti-patterns](https://benfrain.com/oocss-atomic-css-responsive-web-design-anti-pattern/)
 * [Reuse or not reuse](http://www.cssmojo.com/a-retort-to-reuse-on-maintainablecss/)
 * [MaintainableCSS](http://maintainablecss.com/)
+* [CSS Maintainability Guide - Very old guides and probably not BEM-friendly](http://meiert.com/en/blog/20090617/maintainability-guide/)
 
 You need to know how [Specificity, Inheritance and Cascade](http://vanseodesign.com/css/css-specificity-inheritance-cascaade/) work in CSS.
 

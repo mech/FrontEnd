@@ -19,20 +19,6 @@ getClickedState() {
 }
 ```
 
-### Initial States
-
-Using props in your initial state is actually an anti-pattern. But sometimes it is still a valid use-case. In such cases, it is better to tweak the naming to `defaultXXX` or `initialXXX`.
-
-```js
-getInitialState() {
-  return {
-    text: this.props.defaultText,
-    data: this.props.initialData,
-    edit: null // { row: index, cell: index }
-  }
-}
-```
-
 ## Bad Practices
 
 * Do not update `this.state` directly as this can have unpredictable or unexpected behavior. React uses batch updating and is asynchronous.
@@ -62,7 +48,7 @@ getInitialState() {
 }
 ```
 
-## Props
+## `this.props` for Stateless Componenets
 
 ```js
 // Properties are immutable and read-only
@@ -71,7 +57,41 @@ Object.isFrozen(this.props) === true
 
 Props are immutable, once defined it is unlikely you want to change that. However if you do want to change props mid-flight you can use `componentWillReceiveProps` lifecycle hooks to adjust your internal state.
 
+While the child has access to read its own props, it doesn't own them. The parent component owns them. This is one-way data flow where data changes come from the "top" of the app and propagated "downwards" through its children.
+
+> A child component does not own its props. Parent components own the props of the child component.
+
+What existed as mutable state in parent component is passed down as immutable props to child component. So state goes into its own transformation from mutable to immutable.
+
 ### Default Property Values
 
 If you take optional props, make sure that the component still works with missing props. Defensive programming.
 
+## `this.state` for Stateful Components
+
+Whereas props are immutable and owned by a component's parent, state is mutable and owned by the component itself.
+
+`this.state` is private to the component and can be updated with `this.setState()`.
+
+### Initial States
+
+Using props in your initial state is actually an anti-pattern. But sometimes it is still a valid use-case. In such cases, it is better to tweak the naming to `defaultXXX` or `initialXXX`.
+
+```js
+getInitialState() {
+  return {
+    text: this.props.defaultText,
+    data: this.props.initialData,
+    edit: null // { row: index, cell: index },
+    products: []
+  }
+},
+
+componentDidMount() {
+  const products = getProduct.sort((a, b) => {
+    return b.votes - a.votes
+  })
+  
+  this.setState({ products })
+}
+```

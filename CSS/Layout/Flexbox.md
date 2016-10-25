@@ -1,5 +1,8 @@
 # Flexbox
 
+* [The Ultimate Flexbox Cheat Sheet](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
+* [Codrops' Flexbox Reference](http://tympanus.net/codrops/css_reference/flexbox/)
+
 Don't always think you need to use media queries. Most of the time a default flexbox can make the site very responsive already.
 
 > Flexbox let the DOM know that elements on the page have a relationship (or relationships)

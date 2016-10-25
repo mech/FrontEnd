@@ -7,7 +7,13 @@
 * [Jumpsuit](https://github.com/jumpsuit/jumpsuit)
 * [Redux like Dan Abramov](https://medium.com/@hackupstate/redux-like-dan-abramov-7f4184979219#.pkwk1n2eg)
 
-If you are unhappy to pass data down and down and down to children, you should use Redux earlier. Also, do not couple data fetching with rendering.
+## Why Redux?
+
+If you are unhappy to pass data down and down and down to children, you should use Redux earlier. Also, do not couple data fetching with rendering. See the Full-stack React book's Timer example for passing pros up and down the chain problem.
+
+The props approach makes it hard to verify that all these combinations and permutations of properties work as expected.
+
+Also, sometimes you end up in scenarios where you need to "pipe through" properties from a parent to a child to a grandchild to a great-grandchild, and so on.
 
 ## Against
 

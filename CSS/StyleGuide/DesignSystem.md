@@ -7,6 +7,7 @@ We are not designing static graphics. We are designing interactive systems. We a
 * Pattern Library - Documented UI library with code examples.
 * Content Patterns - the content strategist's job to define content patterns
 * Display Patterns - the designer's job
+* Formal Catalog
 
 > Get control over your design with a system
 
@@ -27,6 +28,10 @@ Living documentation based on executable examples.
 * [The Salesforce Team Model for Scaling a Design System](https://medium.com/salesforce-ux/the-salesforce-team-model-for-scaling-a-design-system-d89c2a2d404b#.5uq1gbyrb)
 * [Content Display Patterns - Content patterns are different from Display patterns](http://danielmall.com/articles/content-display-patterns/)
 * [Design Systems and Postel's Law](http://markboulton.co.uk/journal/design-systems-and-postels-law)
+* [Researching Design Systems](http://danielmall.com/articles/researching-design-systems/)
+* [Sweden](http://sweden.identitytool.com/identity/the-starting-points/)
+* [Designing with Context](http://www.cennydd.com/writing/designing-with-context)
+* [The Component Cut-Up Workshop by Eightshapes](https://medium.com/eightshapes-llc/the-component-cut-up-workshop-1378ae110517#.4syjka1ny)
 
 > Your design needs to adapt and change to fit the content on offer and the changing nature of the web. Whether it's a modified navigation bar to accommodate new sections, a new type of article page or a complete design refresh, the key to success is continuous improvement.
 
@@ -104,8 +109,16 @@ http://styleguides.io/examples.html
 * [MailChimp](http://ux.mailchimp.com/patterns)
 * [Firebase](https://www.firebase.com/docs/styleguide.html)
 * [Walmart](http://walmartlabs.github.io/web-style-guide/)
-* [GitHub](http://primercss.io/)
+* [Primer from GitHub](http://primercss.io/)
 * [Atlassian](https://design.atlassian.com)
+* [GE's Predix Design System](https://medium.com/ge-design/ges-predix-design-system-8236d47b0891#.ndls3eupf)
+
+**Some forms examples**
+
+* [Semantic UI](http://semantic-ui.com/collections/form.html)
+* [Radium buttons](https://formidable.com/open-source/radium/)
+* [Primer from Github](http://primercss.io/forms/)
+* [Spectre.css](https://picturepan2.github.io/spectre/)
 
 ## Context-Agnostic and Structural Thinking
 
