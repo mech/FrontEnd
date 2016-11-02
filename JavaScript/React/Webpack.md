@@ -13,6 +13,10 @@
 https://github.com/postcss/postcss-loader/issues/111
 https://github.com/webpack/webpack/issues/2557
 
+## Loaders
+
+* [See v2.1.0 beta.23 on `rules` replacing `loaders`](https://github.com/webpack/webpack/releases/tag/v2.1.0-beta.23)
+
 ## Hot Reloading - HMR, HSR, RHL
 
 HMR is very delicate and hard to get right.

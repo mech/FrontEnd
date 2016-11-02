@@ -182,6 +182,8 @@ Layout and position should be handled by either a separate layout class or a sep
 * [On Utility Classes](http://davidtheclark.com/on-utility-classes/)
 * [SUIT CSS Utilities](https://github.com/suitcss/utils)
 * [uikit](https://getuikit.com/docs/utility.html)
+* [Functional CSS from a Pure UI Perspective](https://medium.com/javascript-inside/functional-css-from-a-pure-ui-perspective-bd04c8af4fdc#.3qqugqfzz)
+* [Functional Programming, CSS, and your sanity](http://www.jon.gold/2015/07/functional-css/)
 
 Minimizing side effects. Provides confidence. Make things predictable.
 

@@ -32,6 +32,7 @@ Living documentation based on executable examples.
 * [Sweden](http://sweden.identitytool.com/identity/the-starting-points/)
 * [Designing with Context](http://www.cennydd.com/writing/designing-with-context)
 * [The Component Cut-Up Workshop by Eightshapes](https://medium.com/eightshapes-llc/the-component-cut-up-workshop-1378ae110517#.4syjka1ny)
+* [Pure UI](http://rauchg.com/2015/pure-ui/)
 
 > Your design needs to adapt and change to fit the content on offer and the changing nature of the web. Whether it's a modified navigation bar to accommodate new sections, a new type of article page or a complete design refresh, the key to success is continuous improvement.
 
