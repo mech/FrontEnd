@@ -9,9 +9,19 @@
 
 * [Webpack 2 new documentation site](https://webpack.js.org/concepts/)
 * [Code split component](https://github.com/ctrlplusb/code-split-component)
+* [Webpack 2 Tree Shaking Configuration](http://moduscreate.com/webpack-2-tree-shaking-configuration/)
+* [Code Splitting for React Router with ES6 Imports](http://moduscreate.com/code-splitting-for-react-router-with-es6-imports/)
+* [Getting Started with Webpack 2](https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783#.2kd1zhnr3)
+* [Webpack & HTTP/2](https://medium.com/webpack/webpack-http-2-7083ec3f3ce6#.e5uya9o19)
 
-https://github.com/postcss/postcss-loader/issues/111
-https://github.com/webpack/webpack/issues/2557
+---
+
+- https://github.com/postcss/postcss-loader/issues/111
+- https://github.com/webpack/webpack/issues/2557
+- https://github.com/gaearon/redux-devtools/blob/master/examples/todomvc/index.js
+- https://github.com/gaearon/react-hot-boilerplate/pull/61
+- https://github.com/mhaagens/react-mobx-react-router4-boilerplate/blob/master/src/index.js
+- https://github.com/ctrlplusb/code-split-component
 
 ## Loaders
 

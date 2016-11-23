@@ -6,8 +6,16 @@
 * [10 Tips for Better Redux Architecture](https://medium.com/javascript-scene/10-tips-for-better-redux-architecture-69250425af44#.uawb0d7ag)
 * [Jumpsuit](https://github.com/jumpsuit/jumpsuit)
 * [Redux like Dan Abramov](https://medium.com/@hackupstate/redux-like-dan-abramov-7f4184979219#.pkwk1n2eg)
+* [Making sense of Redux](https://medium.freecodecamp.com/why-redux-makes-sense-to-me-and-how-i-conceptualize-it-c8a3a9db15ca#.rd78c8v6k)
+* [Redux Step by Step: A Simple and Robust Workflow for Real Life Apps](https://hackernoon.com/redux-step-by-step-a-simple-and-robust-workflow-for-real-life-apps-1fdf7df46092#.43zajz8e6)
 
 ## Why Redux?
+
+Redux aims to decouple state mutation (state transformation) and asynchronicity (side-effect), separating them so that you can reason about them individually.
+
+> Separation of asynchronous logic from state mutation.
+> 
+> Predictability and testability
 
 If you are unhappy to pass data down and down and down to children, you should use Redux earlier. Also, do not couple data fetching with rendering. See the Full-stack React book's Timer example for passing pros up and down the chain problem.
 
@@ -18,6 +26,28 @@ Also, sometimes you end up in scenarios where you need to "pipe through" propert
 ## Against
 
 * [You might not need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367#.hp3iux52h)
+
+## Core Principles
+
+1. Single source of truth
+2. State is read-only
+3. Changes are made with pure function
+
+## Reducers - Stateless Stores
+
+```js
+const reducer = (state = {}, action) => ({
+  trey: treyReducer(state.trey, action),
+  billing: billingReducer(state.billing, action)
+})
+
+const store = createStore(reducer)
+
+store.dispatch(takeLeave(leaveSpec))
+
+const newState = store.getState()
+```
+
 
 ## Dealing with Side Effects
 
