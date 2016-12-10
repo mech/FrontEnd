@@ -1,5 +1,6 @@
 # Webpack
 
+* [Awesome Webpack](https://github.com/d3viant0ne/awesome-webpack)
 * [Deploying your React app to Heroku with Webpack](http://ditrospecta.com/javascript/react/es6/webpack/heroku/2015/08/08/deploying-react-webpack-heroku.html)
 * [Long-term caching of static assets with Webpack](https://medium.com/@okonetchnikov/long-term-caching-of-static-assets-with-webpack-1ecb139adb95#.ts6yzv1s7)
 
@@ -13,6 +14,8 @@
 * [Code Splitting for React Router with ES6 Imports](http://moduscreate.com/code-splitting-for-react-router-with-es6-imports/)
 * [Getting Started with Webpack 2](https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783#.2kd1zhnr3)
 * [Webpack & HTTP/2](https://medium.com/webpack/webpack-http-2-7083ec3f3ce6#.e5uya9o19)
+* [What's new in Webpack 2](https://gist.github.com/sokra/27b24881210b56bbaff7)
+* [Migrating to Webpack 2](http://javascriptplayground.com/blog/2016/10/moving-to-webpack-2/)
 
 ---
 
@@ -38,13 +41,27 @@ HMR is from Webpack utilising WebSocket and JSONP. style-loader gives you the ab
 
 ## Plugins
 
-* DedupePlugin - Search for similar files and deduplicate them in the output.
-* OccurrenceOrderPlugin - Module and chunk ID ordering. Ids that are used often get lower, shorter ID. This make things predictable and reduce total file size.
+* DedupePlugin - **Deprecated!** Search for similar files and deduplicate them in the output.
+* OccurrenceOrderPlugin - **No longer needed.** Module and chunk ID ordering. Ids that are used often get lower, shorter ID. This make things predictable and reduce total file size.
+* [offline-plugin](https://github.com/NekR/offline-plugin)
+* [inline-manifest-webpack-plugin](https://github.com/szrenwei/inline-manifest-webpack-plugin)
+* [html-webpack-plugin](http://javascriptplayground.com/blog/2016/07/webpack-html-plugin/)
 
 ## Options
 
 * chunkFilename - non-entry file, typically asynchronous split module like require.ensure.
 * [UglifyJS2 compressor options](https://github.com/mishoo/UglifyJS2#compressor-options)
+
+## Code Splitting
+
+* [Code splitting with Webpack & React Router](https://brotzky.co/blog/code-splitting-react-router-webpack-2/)
+* [Example of how to code split with Webpack 2 and React Router](https://github.com/brotzky/code-splitting)
+
+---
+
+* Commons Chunk - Extract out common code libraries into vendor
+* Code splitting - Lazy loading of chunks of code as pages are visited.
+* DLL - build times and caching
 
 ## Performance
 

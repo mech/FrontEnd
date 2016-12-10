@@ -1,5 +1,7 @@
 # Redux
 
+> Use Redux state for globally interesting states like auth, contract_code, etc. Use React state for complex form that can be isolated like TAKE_LEAVE, etc.
+
 * [React/Redux Links](https://github.com/markerikson/react-redux-links)
 * [Normalizing State Shape](https://github.com/markerikson/redux/blob/structuring-reducers-page/docs/recipes/reducers/06-NormalizingStateShape.md)
 * [Structuring Reducers Recipe](https://github.com/reactjs/redux/issues/1784)
@@ -8,6 +10,9 @@
 * [Redux like Dan Abramov](https://medium.com/@hackupstate/redux-like-dan-abramov-7f4184979219#.pkwk1n2eg)
 * [Making sense of Redux](https://medium.freecodecamp.com/why-redux-makes-sense-to-me-and-how-i-conceptualize-it-c8a3a9db15ca#.rd78c8v6k)
 * [Redux Step by Step: A Simple and Robust Workflow for Real Life Apps](https://hackernoon.com/redux-step-by-step-a-simple-and-robust-workflow-for-real-life-apps-1fdf7df46092#.43zajz8e6)
+* [Rules for structuring Redux applications](http://jaysoo.ca/2016/02/28/organizing-redux-application/)
+* [Why Redux need reducers to be "pure functions"](https://medium.freecodecamp.com/why-redux-needs-reducers-to-be-pure-functions-d438c58ae468#.lm1nbvubo)
+* [Redux-ORM??](http://blog.isquaredsoftware.com/2016/10/practical-redux-part-1-redux-orm-basics/)
 
 ## Why Redux?
 
@@ -48,7 +53,6 @@ store.dispatch(takeLeave(leaveSpec))
 const newState = store.getState()
 ```
 
-
 ## Dealing with Side Effects
 
 * [Redux side effects and you](https://medium.com/javascript-and-opinions/redux-side-effects-and-you-66f2e0842fc3#.abq09r7kx)
@@ -63,3 +67,13 @@ Normalizr
 * [react-redux-jwt-auth-example](https://github.com/joshgeller/react-redux-jwt-auth-example)
 * [redux-auth-wrapper](https://github.com/mjrussell/redux-auth-wrapper)
 
+## Thunk
+
+* [What is a thunk?](https://daveceddia.com/what-is-a-thunk/)
+* [Why doesn't Redux support AJAX out of the box?](http://goshakkk.name/redux-no-ajax-by-default/)
+
+Action is just an object. Almost nobody want to type out the object over and over again, so they use Action Creator. When you want to perform Ajax call, you cannot possibly do it at the Reducer since it is a pure function (after all, the reducer is a predictable state container).
+
+## People
+
+* [Jack Hsu](http://jaysoo.ca/)
