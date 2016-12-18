@@ -8,6 +8,11 @@
 
 ## Webpack 2
 
+- No need for empty string for `resolve.extensions`
+- Must specify `-loader` at the end of all loaders.
+
+---
+
 * [Webpack 2 new documentation site](https://webpack.js.org/concepts/)
 * [Code split component](https://github.com/ctrlplusb/code-split-component)
 * [Webpack 2 Tree Shaking Configuration](http://moduscreate.com/webpack-2-tree-shaking-configuration/)
@@ -28,6 +33,8 @@
 
 ## Loaders
 
+Loaders preprocess files before Webpack bundles them.
+
 * [See v2.1.0 beta.23 on `rules` replacing `loaders`](https://github.com/webpack/webpack/releases/tag/v2.1.0-beta.23)
 
 ## Hot Reloading - HMR, HSR, RHL
@@ -38,6 +45,11 @@ HMR is from Webpack utilising WebSocket and JSONP. style-loader gives you the ab
 
 * [Hot State Reloading](https://medium.com/@tannerlinsley/introducing-hsr-the-hot-state-reloader-behind-jumpsuit-js-42498712ac90#.kn14mbsmc)
 * [Webpack & The Hot Module Replacement](https://medium.com/@rajaraodv/webpack-hot-module-replacement-hmr-e756a726a07#.igxh3h3e5)
+* [React Hot Loader 3.0](https://github.com/gaearon/react-hot-boilerplate/pull/61)
+
+`react-hot-loader/babel` detects un-exported components.
+
+You will get: `Warning: [react-router] You cannot change <Router routes>; it will be ignored`, please see [issues#2182](https://github.com/ReactTraining/react-router/issues/2182), but seems to be non issues with RR v4.
 
 ## Plugins
 

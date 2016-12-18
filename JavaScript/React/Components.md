@@ -11,6 +11,26 @@ componentDidMount() {
 }
 ```
 
+## PropTypes
+
+```js
+class MatchInfo extends Component {
+  static propTypes = {
+    tournament: PropTypes.shape({
+      active: PropTypes.shape({
+        type: TournamentTypeShape
+      })
+    }),
+    match: PropTypes.shape({
+      active: PropTypes.shape({
+        scores: MatchScoresShape,
+        teams: MatchTeamsShape
+      })
+    })
+  }
+}
+```
+
 ## Small
 
 Keep your components small, like very small, small. If your `render()` has more than 10 lines, it is probably way too big. The whole idea of React is code reusability so if you throw everything in one file you are losing it.

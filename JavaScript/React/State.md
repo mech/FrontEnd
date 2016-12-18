@@ -1,5 +1,7 @@
 # State Management
 
+* [The 5 Types Of React Application State](http://jamesknelson.com/5-types-react-application-state/)
+
 You declare how your UI will look like in the `render` method and the rest is just state management. There is no DOM manipulation anymore.
 
 > If a parent needs to know about it, the parent should own it.
@@ -18,6 +20,8 @@ getClickedState() {
   return this.refs.child.hasBeenClicked();
 }
 ```
+
+State represents our business and visual requirements. The state knows about its structure, but it doesn't know how specifically it's going to be used.
 
 ## Bad Practices
 
