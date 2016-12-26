@@ -1,5 +1,7 @@
 # Higher Order Components
 
+Behavioral-Oriented Component. HOC encapsulate behavior and typically does not render anything.
+
 * [HOC: A React Application Design Pattern from SitePoint](https://www.sitepoint.com/react-higher-order-components/)
 
 ```js
