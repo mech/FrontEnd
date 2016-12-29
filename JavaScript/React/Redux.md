@@ -29,7 +29,19 @@ Redux aims to decouple state mutation (state transformation) and asynchronicity 
 > 
 > Predictability and testability
 
-If you are unhappy to pass data down and down and down to children, you should use Redux earlier. Also, do not couple data fetching with rendering. See the Full-stack React book's Timer example for passing pros up and down the chain problem.
+If you are unhappy to pass data down to children indefinitely, or proxy props functions up several level deep, then you should use consider using Redux. Also, do not couple data fetching with rendering. See the Full-stack React book's Timer example for passing pros up and down the chain problem.
+
+```js
+// Happy proxing :(
+<EditableTimer
+  key={timer.id}
+  id={timer.id}
+  title={timer.title}
+  onFormSubmit={this.props.onFormSubmit}
+  onFormUpdate={this.props.onFormUpdate}
+  onTrashClick={this.props.onTrashClick}
+/>
+```
 
 The props approach makes it hard to verify that all these combinations and permutations of properties work as expected.
 
